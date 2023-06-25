@@ -1,0 +1,117 @@
+@font-face{
+    src: url(70sDisco-Regular.ttf);
+    font-family: 70sDisco-Regular;
+  }
+
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    color: green;
+    font-weight: bolder;
+
+
+  
+
+}
+
+
+
+
+.main-container{
+    width: 200px;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    background-image: url(images/lagos.jpg);
+    
+
+}
+
+#save-btn{
+    background: #454545;
+    font-family: sans-serif;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+#increament-btn{
+    background: #454545;
+    font-family: sans-serif;
+    padding: 5px;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#buy-me{
+    background: #454545;
+    font-family: sans-serif;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+#error{
+    color: red;
+    border: 1px none red;
+    height: 30px;
+    width: 300px;
+    background: wheat;
+    margin: auto;
+}
+
+#sum{
+    color: red;
+    border: 1px none red;
+    height: 30px;
+    width: 300px;
+    background: wheat;
+    margin: auto;
+}
+
+.game-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    border: 1px none red;
+    width: 300px;
+    padding: 10px 30px 20px 30px;
+    border-radius: 6px;
+    background-image: radial-gradient( wheat 20%, red 30%, yellow 25%, brown 25%);
+
+}
+
+span{
+    border: 1px none red;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: white;
+    
+}
+
+button{
+    margin-top: 50px;
+    border: none;
+    background: rgba(240, 10, 10, 0.165);
+  
+    color: white;
+}
+
+
+
+#teen{
+    color: wheat;
+    font-family: 70sDisco-Regular;
+}
+

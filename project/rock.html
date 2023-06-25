@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='rock.css'>
+    
+</head>
+<body>
+  
+   <div class="main-container">
+    <h1>people entered:</h1>
+    <h2 id="count-people">0</h2>
+    <!-- create a increament button with the id increament-btn -->
+
+    <div class="flex-container">
+    <button id="increament-btn" onclick="increament()">INCREAMENT</button>
+
+    <button id="save-btn" onclick="save()">SAVE-BUTTON</button>
+
+    </div>
+    <p id="save-element">previous entries:</p>
+
+</div>
+
+<div>
+<img src="images/flower.jpg" alt="" width="100px"  height="150px" style="background-color: aliceblue;">
+<p>flower for sale</p>
+<button id="buy-me" onclick="something()">Purchase-$149</button>
+<p id="error"></p>
+
+</div>
+
+<p id="num1">8</p>
+<p id="num2">2</p>
+
+<button onclick="add()">Add</button>
+
+<button onclick="subtract()">subtract</button>
+
+<button onclick="divide()">Divide</button>
+
+<button onclick="multiply()">Multiply</button>
+
+<p id="sum"></p>
+
+
+
+<div class="game-container">
+    <div>
+        <h1 id="teen">HOME</h1> <br>
+        <span id="cal">12</span> <br>
+
+        <button onclick="addFix()">+1</button>
+        <button onclick="addFix1()">+2</button>
+        <button onclick="addFix2()">+3</button>
+    </div>
+
+    <div>
+        <h1 id="teen">GUEST</h1> <br>
+        <span id="cals">5</span> <br>
+
+        <button onclick="addFix4()">+1</button>
+        <button onclick="addFix5()">+2</button>
+        <button onclick="addFix6()">+3</button>
+    </div>
+
+
+</div>
+
+
+ 
+
+
+
+    <script src='rock.js'></script>
+</body>
+</html>
